@@ -1,0 +1,20 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+body {
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: ;
+}
