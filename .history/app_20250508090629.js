@@ -168,7 +168,8 @@ const vendaHotDogs=() => {
 vendaHotDogs(); // Chamada da função principal
 
 // Escreva uma função que remova todas as vogais de uma string de entrada.
-// Exemplo: "This website is for losers LOL!" => "Ths wbst s fr lsrs LL!"
+// Exemplo:
+"This website is for losers LOL!" => "Ths wbst s fr lsrs LL!"
 
 
 const removerVogais=() => {
@@ -190,7 +191,9 @@ const removerVogais=() => {
         console.log(resultado);
     }
 
-    iniciarRemocaoDeVogais(); // Chamada de função principal
+    // Chamada de função principal
+    iniciarRemocaoDeVogais();
 };
 
-removerVogais(); // Chamada de função externa
+// Chamada de função externa
+removerVogais();

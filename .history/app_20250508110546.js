@@ -193,4 +193,5 @@ const removerVogais=() => {
     iniciarRemocaoDeVogais(); // Chamada de função principal
 };
 
-removerVogais(); // Chamada de função externa
+// Chamada de função externa
+removerVogais();

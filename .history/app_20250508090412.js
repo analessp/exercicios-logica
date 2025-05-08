@@ -115,12 +115,6 @@ const menuDeCadastro=() => {
 // Chamada da função
 menuDeCadastro();
 
-// 3. Crie uma função vendaHotDogs que recebe n (quantidade de hotdogs). Dependendo da quantidade, o preço unitário varia:
-// Quantidade de hotdogs                Preço por unidade (centavos)
-// n < 5                                100
-// 5 ≤ n < 10                           95
-// n ≥ 10                               90
-
 
 
 const vendaHotDogs=() => {
@@ -167,9 +161,6 @@ const vendaHotDogs=() => {
 
 vendaHotDogs(); // Chamada da função principal
 
-// Escreva uma função que remova todas as vogais de uma string de entrada.
-// Exemplo: "This website is for losers LOL!" => "Ths wbst s fr lsrs LL!"
-
 
 const removerVogais=() => {
 
@@ -190,7 +181,9 @@ const removerVogais=() => {
         console.log(resultado);
     }
 
-    iniciarRemocaoDeVogais(); // Chamada de função principal
+    // Chamada de função principal
+    iniciarRemocaoDeVogais();
 };
 
-removerVogais(); // Chamada de função externa
+// Chamada de função externa
+removerVogais();

@@ -190,7 +190,9 @@ const removerVogais=() => {
         console.log(resultado);
     }
 
-    iniciarRemocaoDeVogais(); // Chamada de função principal
+    // Chamada de função principal
+    iniciarRemocaoDeVogais();
 };
 
-removerVogais(); // Chamada de função externa
+// Chamada de função externa
+removerVogais();

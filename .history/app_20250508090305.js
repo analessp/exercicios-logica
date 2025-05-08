@@ -39,10 +39,10 @@ console.log(`qual e o dia da semana ${dia}`);
 }
 
 // 2. Escreva um algoritmo que construa um menu de cadastro com as opções:
-// C) Create	(Cadastrar/Inserir)
-// R) Read	    (Buscar/Ler)
-// U) Update	(Editar/Atualizar)
-// D) Delete	(Excluir/Apagar)
+C) Create	(Cadastrar/Inserir)
+R) Read	(Buscar/Ler)
+U) Update	(Editar/Atualizar)
+D) Delete	(Excluir/Apagar)
 
 const menuDeCadastro=() => {
     // Simulação de um banco de dados em memória
@@ -115,14 +115,6 @@ const menuDeCadastro=() => {
 // Chamada da função
 menuDeCadastro();
 
-// 3. Crie uma função vendaHotDogs que recebe n (quantidade de hotdogs). Dependendo da quantidade, o preço unitário varia:
-// Quantidade de hotdogs                Preço por unidade (centavos)
-// n < 5                                100
-// 5 ≤ n < 10                           95
-// n ≥ 10                               90
-
-
-
 const vendaHotDogs=() => {
 
     // Função para calcular e formatar o valor
@@ -167,9 +159,6 @@ const vendaHotDogs=() => {
 
 vendaHotDogs(); // Chamada da função principal
 
-// Escreva uma função que remova todas as vogais de uma string de entrada.
-// Exemplo: "This website is for losers LOL!" => "Ths wbst s fr lsrs LL!"
-
 
 const removerVogais=() => {
 
@@ -190,7 +179,9 @@ const removerVogais=() => {
         console.log(resultado);
     }
 
-    iniciarRemocaoDeVogais(); // Chamada de função principal
+    // Chamada de função principal
+    iniciarRemocaoDeVogais();
 };
 
-removerVogais(); // Chamada de função externa
+// Chamada de função externa
+removerVogais();
