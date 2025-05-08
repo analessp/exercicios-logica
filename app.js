@@ -194,3 +194,63 @@ const removerVogais=() => {
 };
 
 removerVogais(); // Chamada de função externa
+
+// 5. Faça uma função em que receba três argumentos
+// - Dois números
+// - operador aritmético
+// A partir desta função retorne o cálculo desejado com os dois números
+
+function calculadora(numero1, numero2, operadorAritmetico) {
+    switch (operadorAritmetico) {
+        case "+":
+            return numero1 + numero2;
+            case "-":
+                return numero1 - numero2;
+                case "*":
+                    return numero1 * numero2;
+                    case "/":
+                        if (numero2 === 0) {
+                            return "Operacao invalida.";
+                        }
+
+                        return numero1 / numero2;
+                        case "%":
+                            return numero1 % numero2
+                            default:
+                                return "Operacao invalida."
+    }
+}
+
+const numero1 = readline.questionInt("Digite um numero: ")
+const numero2 = readline.questionInt("Digite o segundo numero: ")
+const operadorAritmetico = readline.question("Digite um operador:")
+
+console.log(`Resultado: ${numero1} ${numero2} = ${calculadora(numero1, numero2, operadorAritmetico)}`);
+
+// Faça um programa que leia 7 nomes de pessoas e guarde-os em um vetor. No final, mostre uma listagem com todos os nomes informados, na ordem inversa daquela em que eles foram informados.
+
+const listaNomes=() => {
+
+    let nomes = [];
+    let nomesInvertidos = [];
+
+    // Coletando os nomes
+    for (let i = 0; i < 7; i++) {
+        let nome = readline.question(`Digite o nome da pessoa ${i+1}: `);
+        nomes.push(nome);
+    }
+
+    // Invertendo a lista
+    for (let i = 6; i >= 0; i--) {
+        nomesInvertidos.push(nomes[i]);
+    }
+
+    console.log("\nNomes na ordem original:");
+    console.log(nomes);
+
+    console.log("\nNome na ordem invertida:");
+    console.log(nomesInvertidos);
+};
+
+     // Chamada da função principal
+     listaNomes();
